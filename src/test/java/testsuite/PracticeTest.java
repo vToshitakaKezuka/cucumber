@@ -9,7 +9,7 @@ public class PracticeTest {
 	
 	@Test
 	public void test01(){
-		System.setProperty("webdriver.chrome.driver", "C:\\pleiades\\workspace\\webdriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.google.co.jp");
 	}
